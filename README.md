@@ -61,11 +61,6 @@ Tasks are saved using file handling
 
 Data remains available after restarting the application
 
-Technologies Used
-Java
 
-Object-Oriented Programming (OOP)
-
-Java Collections Framework
 
 File Handling (I/O)
