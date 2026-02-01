@@ -20,7 +20,7 @@ Features
 Task Management
 Create tasks with:
 
-Title
+Title: ANALYSE THE MARKET WITH PROPER TECHNIQUES
 
 Description
 
