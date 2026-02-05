@@ -1,66 +1,98 @@
+# Smart Task & Productivity Analyzer
 
-**Smart Task & Productivity Analyzer**:-
-Overview
-Smart Task & Productivity Analyzer is a Java-based application designed to help users efficiently manage daily tasks and gain insights into their productivity. The system allows users to create, track, and analyze tasks while monitoring time usage to improve focus and efficiency.
+## Overview
+**Smart Task & Productivity Analyzer** is a Java-based application designed to help users efficiently manage daily tasks and gain actionable insights into their productivity. The system enables users to create, track, and analyze tasks while monitoring time usage to improve focus, efficiency, and overall performance.
 
-This project highlights strong fundamentals in Java, Object-Oriented Programming, Collections, and File Handling, making it ideal for academic evaluation and entry-level software engineering portfolios.
+This project demonstrates strong fundamentals in **Java**, **Object-Oriented Programming (OOP)**, **Java Collections**, and **File Handling**, making it suitable for academic evaluation and entry-level software engineering portfolios.
 
-Problem Statement
+---
+
+## Problem Statement
 Students and professionals often struggle with:
+- Poor task organization  
+- Lack of awareness of time usage  
+- Absence of measurable productivity insights  
 
-Poor task organization
+This application addresses these challenges by combining **task management** with **basic productivity analytics**, enabling users to better plan, execute, and evaluate their daily activities.
 
-Lack of time awareness
+---
 
-No clear measurement of productivity
+## Features
 
-This project addresses these challenges by combining task management with basic productivity analytics.
+### Task Management
+- Create tasks with:
+  - **Title** (e.g., *Analyse the market with proper techniques*)
+  - **Description**
+  - **Priority** (Low / Medium / High)
+  - **Deadline**
+- Update existing task details
+- Track task status:
+  - Pending
+  - In Progress
+  - Completed
+- Delete completed or unwanted tasks
 
-Features
-Task Management
-Create tasks with:
+---
 
-Title: ANALYSE THE MARKET WITH PROPER TECHNIQUES
+### Time Tracking
+- Track time spent on individual tasks
+- Calculate:
+  - Total time spent per task
+  - Total time spent per day
+- Analyze time usage patterns to identify inefficiencies
 
-Description
+---
 
-Priority (Low / Medium / High)
+### Productivity Analysis
+- Total number of tasks completed
+- Comparison of time spent on:
+  - High-priority tasks
+  - Low-priority tasks
+- Daily productivity summaries
+- Identification of the most productive days
 
-Deadline
+---
 
-Update task details
+### Data Persistence
+- Task data is stored using **File Handling (I/O)**
+- Data remains available after restarting the application
+- Ensures reliability and continuity of user information
 
-Mark tasks as:
+---
 
-Pending
+## Technologies Used
+- **Java**
+- **Object-Oriented Programming (OOP)**
+- **Java Collections Framework**
+- **File Handling (I/O)**
 
-In Progress
+---
 
-Completed
-
-Delete tasks
-
-Time Tracking
-Track time spent on each task
-
-Calculate total time per task and per day
-
-Analyze time usage patterns
-
-Productivity Analysis
-Total tasks completed
-
-Time spent on high-priority vs low-priority tasks
-
-Daily productivity summary
-
-Identification of productive days
-
-Data Persistence
-Tasks are saved using file handling
-
-Data remains available after restarting the application
-
+## Project Structure
+smart-task-productivity-analyzer/
+│── src/
+│ ├── Main.java
+│ ├── Task.java
+│ ├── TaskManager.java
+│ └── ProductivityAnalyzer.java
+│── data/
+│ └── tasks.txt
+│── README.md
 
 
-File Handling (I/O)
+---
+
+## How to Run
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/smart-task-productivity-analyzer.git
+
+2.Navigate to the project directory:
+cd smart-task-productivity-analyzer
+
+3.Compile the source files:
+javac src/*.java
+
+4.Run the application:
+java src.Main
+
