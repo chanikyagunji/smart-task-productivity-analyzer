@@ -70,24 +70,32 @@ This application addresses these challenges by combining **task management** wit
 
 ## Project Structure
 smart-task-productivity-analyzer/
+
 │── src/
+
 │ ├── Main.java
+
 │ ├── Task.java
+
 │ ├── TaskManager.java
+
 │ └── ProductivityAnalyzer.java
+
 │── data/
+
 │ └── tasks.txt
+
 │── README.md
 
 
 ---
 
 ## How to Run
-1. Clone the repository:
+1.Clone the repository:
 ```bash
 git clone https://github.com/your-username/smart-task-productivity-analyzer.git
 
-2.Navigate to the project directory:
+**2.Navigate to the project directory:**
 cd smart-task-productivity-analyzer
 
 3.Compile the source files:
@@ -96,3 +104,20 @@ javac src/*.java
 4.Run the application:
 java src.Main
 
+Future Enhancements
+Graphical User Interface using JavaFX or Swing
+
+Database integration (MySQL / PostgreSQL)
+
+Weekly and monthly productivity reports
+
+Data visualization using charts
+
+Cloud-based task synchronization
+
+Resume Summary
+Developed a Java-based task management and productivity analysis application using OOP principles, collections, and file handling to help users organize tasks and analyze time usage effectively.
+
+**Author
+Chanikya
+BTech CSE (AI)**
