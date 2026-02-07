@@ -104,7 +104,8 @@ javac src/*.java
 4.Run the application:
 java src.Main
 
-Future Enhancements
+##Future Enhancements
+
 Graphical User Interface using JavaFX or Swing
 
 Database integration (MySQL / PostgreSQL)
@@ -115,9 +116,10 @@ Data visualization using charts
 
 Cloud-based task synchronization
 
-Resume Summary
-Developed a Java-based task management and productivity analysis application using OOP principles, collections, and file handling to help users organize tasks and analyze time usage effectively.
+##Resume Summary
 
-**Author
+Developed a Java-based task management and productivity analysis application using OOP principles, collections, and file handling to help users organize tasks and analyze time usage effectively.
+---
+##Author
 Chanikya
-BTech CSE (AI)**
+BTech CSE (AI)
