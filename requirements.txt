@@ -1,0 +1,86 @@
+Requirements
+Functional Requirements
+1. Task Management
+The system shall allow users to create a task with the following attributes:
+
+Title
+
+Description
+
+Priority (Low / Medium / High)
+
+Deadline
+
+The system shall allow users to update existing task details.
+
+The system shall allow users to change the task status:
+
+Pending
+
+In Progress
+
+Completed
+
+The system shall allow users to delete tasks.
+
+2. Time Tracking
+The system shall record the start time of a task.
+
+The system shall record the end time of a task.
+
+The system shall calculate the total time spent on each task.
+
+The system shall display the time spent in a user-readable format.
+
+3. Productivity Analysis
+The system shall calculate the total number of tasks completed.
+
+The system shall analyze time spent on high-priority and low-priority tasks.
+
+The system shall generate daily productivity summaries.
+
+The system shall identify the most productive days based on task completion and time usage.
+
+4. Data Persistence
+The system shall store task details using file handling (I/O).
+
+The system shall load saved task data when the application restarts.
+
+The system shall ensure data consistency across sessions.
+
+Non-Functional Requirements
+1. Usability
+The application shall provide a simple, menu-driven console interface.
+
+The system shall be easy to use for beginners and students.
+
+2. Performance
+The system shall efficiently handle multiple tasks without significant delay.
+
+Task operations shall execute within acceptable response time limits.
+
+3. Reliability
+The system shall prevent data loss during normal usage.
+
+Stored task data shall remain intact across multiple executions.
+
+4. Maintainability
+The codebase shall follow Object-Oriented Programming principles.
+
+The system shall be modular and easy to extend with new features.
+
+5. Portability
+The application shall run on any system with Java installed.
+
+No platform-specific dependencies shall be required.
+
+System Requirements
+Software Requirements
+Java Development Kit (JDK) 8 or higher
+
+Any Java-supported operating system (Windows, Linux, macOS)
+
+Hardware Requirements
+Minimum 4 GB RAM
+
+Any modern processor capable of running Java applications
