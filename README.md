@@ -116,10 +116,7 @@ Data visualization using charts
 
 Cloud-based task synchronization
 
-##Resume Summary
 
-Developed a Java-based task management and productivity analysis application using OOP principles, collections, and file handling to help users organize tasks and analyze time usage effectively.
----
-##Author
-Chanikya
-BTech CSE (AI)
+
+
+
