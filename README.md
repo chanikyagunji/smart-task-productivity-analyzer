@@ -34,12 +34,20 @@ This application addresses these challenges by combining **task management** wit
 
 ---
 
-### Time Tracking
-- Track time spent on individual tasks
-- Calculate:
-  - Total time spent per task
-  - Total time spent per day
-- Analyze time usage patterns to identify inefficiencies
+###Time Tracking Feature Added
+You implemented real productivity logic in your project.
+
+Now the system can:
+
+Record start time of a task
+
+Record end time of a task
+
+Calculate time spent on the task
+
+Display time duration to the user
+
+This is a core feature of productivity applications. Analyze time usage patterns to identify inefficiencies
 
 ---
 
